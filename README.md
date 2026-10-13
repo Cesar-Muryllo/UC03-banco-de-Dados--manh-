@@ -39,13 +39,3 @@ Repositório dedicado ao acompanhamento da minha jornada de aprendizado em **Ban
 - [ ] Documentos (MongoDB)
 - [ ] Chave-Valor (Redis)
 
----
-
-## 📁 Estrutura do Repositório
-
-```text
-.
-├── 01-fundamentos/      # Resumos teóricos e conceitos iniciais
-├── 02-modelagem/        # Diagramas e esquemas conceituais/lógicos
-├── 03-sql-pratica/      # Scripts SQL (.sql) divididos por módulos
-└── 04-projetos/         # Pequenos projetos integrados de modelagem e consulta
