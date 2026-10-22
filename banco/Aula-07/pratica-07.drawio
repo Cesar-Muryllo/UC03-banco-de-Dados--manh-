@@ -267,19 +267,19 @@
           <mxGeometry height="60" width="120" x="560" y="310" as="geometry" />
         </mxCell>
         <mxCell id="HzZ5MzHyoneyTqyQclt1-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(0,n)" vertex="1">
-          <mxGeometry height="30" width="60" x="270" y="300" as="geometry" />
+          <mxGeometry height="30" width="60" x="210" y="210" as="geometry" />
         </mxCell>
         <mxCell id="HzZ5MzHyoneyTqyQclt1-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="titulo" vertex="1">
           <mxGeometry height="40" width="100" x="240" y="450" as="geometry" />
         </mxCell>
         <mxCell id="HzZ5MzHyoneyTqyQclt1-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(1,n)" vertex="1">
-          <mxGeometry height="30" width="60" x="514" y="300" as="geometry" />
+          <mxGeometry height="30" width="60" x="560" y="210" as="geometry" />
         </mxCell>
         <mxCell id="jzRd7MErVnJM3JVT6qMR-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(1,1)" vertex="1">
-          <mxGeometry height="30" width="60" x="220" y="220" as="geometry" />
+          <mxGeometry height="30" width="60" x="274" y="300" as="geometry" />
         </mxCell>
         <mxCell id="jzRd7MErVnJM3JVT6qMR-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(0,n)" vertex="1">
-          <mxGeometry height="30" width="60" x="560" y="220" as="geometry" />
+          <mxGeometry height="30" width="60" x="500" y="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
