@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="pratica-10" id="pratica-10">
+    <mxGraphModel dx="2489" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="planilha" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=34;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="planilha_pedidos" vertex="1">
+          <mxGeometry height="334" width="240" x="-90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="planilha.pedido" parent="planilha" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="pedido" vertex="1">
+          <mxGeometry height="30" width="240" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="planilha.data_hora" parent="planilha" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="data_hora" vertex="1">
+          <mxGeometry height="30" width="240" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="planilha.unidade" parent="planilha" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="unidade" vertex="1">
+          <mxGeometry height="30" width="240" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="planilha.endereco_unidade" parent="planilha" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="endereco_unidade" vertex="1">
+          <mxGeometry height="30" width="240" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="planilha.telefone_cliente" parent="planilha" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="telefone_cliente" vertex="1">
+          <mxGeometry height="30" width="240" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="planilha.produtos" parent="planilha" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="produtos&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#666666&quot;&gt;vários na célula&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="240" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="planilha.quantidades" parent="planilha" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="quantidades&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#666666&quot;&gt;vários na célula&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="240" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="planilha.precos" parent="planilha" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="precos&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#666666&quot;&gt;vários na célula&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="240" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="planilha.total" parent="planilha" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="total" vertex="1">
+          <mxGeometry height="30" width="240" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="planilha.entregador" parent="planilha" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="entregador" vertex="1">
+          <mxGeometry height="30" width="240" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="cliente" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=34;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="cliente" vertex="1">
+          <mxGeometry height="94" width="220" x="640" y="522" as="geometry" />
+        </mxCell>
+        <mxCell id="cliente.codigo" parent="cliente" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp; &lt;u&gt;id_cliente&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="220" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cliente.telefone" parent="cliente" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="telefone" vertex="1">
+          <mxGeometry height="30" width="220" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="unidade" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=34;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="unidade" vertex="1">
+          <mxGeometry height="124" width="220" x="640" y="374" as="geometry" />
+        </mxCell>
+        <mxCell id="unidade.codigo" parent="unidade" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp; &lt;u&gt;id_unidade&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="220" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="unidade.nome" parent="unidade" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="nome" vertex="1">
+          <mxGeometry height="30" width="220" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="unidade.endereco" parent="unidade" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="endereco" vertex="1">
+          <mxGeometry height="30" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="pedido" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=34;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="pedido" vertex="1">
+          <mxGeometry height="184" width="220" x="280" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pedido.numero" parent="pedido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;&lt;u&gt;id_numero&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="220" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="pedido.data_hora" parent="pedido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="data_hora" vertex="1">
+          <mxGeometry height="30" width="220" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="pedido.entregador" parent="pedido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="entregador" vertex="1">
+          <mxGeometry height="30" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="pedido.unidade_codigo" parent="pedido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp; i&lt;u&gt;d_unidade&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="220" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="pedido.cliente_codigo" parent="pedido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp; id_cliente" vertex="1">
+          <mxGeometry height="30" width="220" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="item_pedido" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=34;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="item_pedido" vertex="1">
+          <mxGeometry height="154" width="220" x="640" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="item_pedido.pedido_numero" parent="item_pedido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="&lt;b&gt;PK FK&lt;/b&gt;&amp;nbsp; &lt;u&gt;id_numero&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="220" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="item_pedido.produto_codigo" parent="item_pedido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="&lt;b&gt;PK FK&lt;/b&gt;&amp;nbsp; id_&lt;u&gt;produto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="220" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="item_pedido.quantidade" parent="item_pedido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="quantidade" vertex="1">
+          <mxGeometry height="30" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="item_pedido.preco" parent="item_pedido" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="preco" vertex="1">
+          <mxGeometry height="30" width="220" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="produto" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=34;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="produto" vertex="1">
+          <mxGeometry height="124" width="220" x="990" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="produto.codigo" parent="produto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp; id _produto" vertex="1">
+          <mxGeometry height="30" width="220" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="produto.nome" parent="produto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="nome" vertex="1">
+          <mxGeometry height="30" width="220" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="produto.preco" parent="produto" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;strokeColor=#6c8ebf;fillColor=#ffffff;" value="preco" vertex="1">
+          <mxGeometry height="30" width="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Smol7tKZwJdHOFttc4Rk-2" edge="1" parent="1" source="pedido.numero" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="item_pedido.pedido_numero" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="540" y="290" as="sourcePoint" />
+            <mxPoint x="640" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Smol7tKZwJdHOFttc4Rk-3" edge="1" parent="1" source="pedido" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="unidade.codigo" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="510" y="190" as="sourcePoint" />
+            <mxPoint x="860" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Smol7tKZwJdHOFttc4Rk-4" edge="1" parent="1" source="item_pedido" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="produto.codigo" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="950" y="340" as="sourcePoint" />
+            <mxPoint x="1090" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Smol7tKZwJdHOFttc4Rk-5" edge="1" parent="1" source="pedido.cliente_codigo" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cliente.codigo" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="410" y="360" as="sourcePoint" />
+            <mxPoint x="550" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
