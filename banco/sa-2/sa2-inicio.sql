@@ -66,4 +66,58 @@ JOIN produto p ON o.produto_codigo = p.codigo
 GROUP BY p.nome
 ORDER BY total_refugo DESC;
 
+DELIMITER //
+CREATE PROCEDURE sp_registrar_item(
+    IN p_expedicao_numero INT, 
+    IN p_produto_codigo INT, 
+    IN p_quantidade INT
+)
+BEGIN
+    DECLARE v_preco_tabela DECIMAL(8,2);
+    
+    -- Busca o preço atual do produto
+    SELECT preco_tabela INTO v_preco_tabela 
+    FROM produto 
+    WHERE codigo = p_produto_codigo;
+    
+    -- Grava o item usando a variável com o preço consultado
+    INSERT INTO item_expedicao (expedicao_numero, produto_codigo, quantidade, preco_cobrado)
+    VALUES (p_expedicao_numero, p_produto_codigo, p_quantidade, v_preco_tabela);
+END //
+DELIMITER ;
+
+CALL sp_registrar_item(2, 4, 5000);
+
+DELIMITER //
+CREATE TRIGGER tg_ordem_baixa_resina
+AFTER INSERT ON ordem_producao
+FOR EACH ROW
+BEGIN
+    DECLARE v_resina_codigo INT;
+
+    SELECT resina_codigo INTO v_resina_codigo 
+    FROM produto 
+    WHERE codigo = NEW.produto_codigo;
+
+    UPDATE estoque_resina
+    SET quantidade_kg = quantidade_kg - NEW.consumo_kg
+    WHERE unidade_codigo = NEW.unidade_codigo 
+      AND resina_codigo = v_resina_codigo;
+END //
+DELIMITER ;
+
+INSERT INTO ordem_producao (data_ordem, qtd_planejada, qtd_boa, qtd_refugo, consumo_kg, unidade_codigo, produto_codigo) 
+VALUES ('2026-11-09', 1000, 950, 50, 20, 2, 3);
+
 -- ETAPA 4: privilégios dos perfis e SHOW GRANTS
+-- Privilégios do Operador
+GRANT INSERT, SELECT ON embalagens.ordem_producao TO 'emb_operador'@'localhost';
+GRANT SELECT ON embalagens.produto TO 'emb_operador'@'localhost';
+
+-- Privilégios do Gerente
+GRANT SELECT ON embalagens.* TO 'emb_gerente'@'localhost';
+GRANT ALL PRIVILEGES ON embalagens.produto TO 'emb_gerente'@'localhost';
+
+-- Conferência dos privilégios
+SHOW GRANTS FOR 'emb_operador'@'localhost';
+SHOW GRANTS FOR 'emb_gerente'@'localhost';
