@@ -24,15 +24,15 @@ Repositório dedicado ao acompanhamento da minha jornada de aprendizado em **Ban
 - [x] Conceitos de SGBD (Sistema Gerenciador de Banco de Dados)
 - [x] Modelagem Conceitual (Modelo Entidade-Relacionamento - MER)
 - [x] Modelagem Lógica (Diagrama Entidade-Relacionamento - DER)
-- [ ] Normalização de Dados (1FN, 2FN, 3FN)
+- [x] Normalização de Dados (1FN, 2FN, 3FN)
 
 ### 2. SQL (Linguagem de Consulta Estruturada)
 - [x] **DDL** (*Data Definition Language*): `CREATE`, `ALTER`, `DROP`
 - [x] **DML** (*Data Manipulation Language*): `INSERT`, `UPDATE`, `DELETE`
 - [x] **DQL** (*Data Query Language*): `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`
-- [ ] **Joins**: `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`
-- [ ] Subqueries e Funções de Agregação (`SUM`, `AVG`, `COUNT`)
-- [ ] Stored Procedures, Views e Triggers
+- [x] **Joins**: `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`
+- [x] Subqueries e Funções de Agregação (`SUM`, `AVG`, `COUNT`)
+- [x] Stored Procedures, Views e Triggers
 
 ### 3. Bancos NoSQL
 - [ ] Conceitos e diferenças em relação aos Relacionais
